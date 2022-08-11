@@ -650,6 +650,131 @@ img {
   }
 }
 
+.info {
+  padding: 100px 0;
+}
+.info__block {
+  margin-bottom: 150px;
+}
+@media (max-width: 1180px) {
+  .info__block {
+    margin-bottom: 85px;
+  }
+}
+@media (max-width: 766px) {
+  .info__block {
+    margin-bottom: 77px;
+  }
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 1180px) {
+  .benefits {
+    justify-content: space-around;
+  }
+}
+
+.benefit {
+  background-color: #f7f7f7;
+  height: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 370px;
+  position: relative;
+}
+@media (max-width: 1180px) {
+  .benefit {
+    width: 45%;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 766px) {
+  .benefit {
+    width: 96%;
+  }
+}
+@media (max-width: 400px) {
+  .benefit {
+    height: 350px;
+  }
+}
+@media (max-width: 330px) {
+  .benefit {
+    height: 320px;
+  }
+}
+.benefit__image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.benefit__text {
+  margin: 26px 100px 0 26px;
+  font-size: 16px;
+  line-height: 23px;
+}
+.benefit__text strong {
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+}
+@media (max-width: 1180px) {
+  .benefit__text {
+    margin: 26px 50px 0 26px;
+  }
+}
+@media (max-width: 375px) {
+  .benefit__text {
+    font-size: 12px;
+    line-height: 16.83px;
+  }
+}
+
+.documents__title {
+  margin-bottom: 100px;
+}
+@media (max-width: 476px) {
+  .documents__title {
+    font-size: 18px;
+    line-height: normal;
+    font-family: "Museo Sans Bold", sans-serif;
+    font-weight: 700;
+    margin-bottom: 90px;
+  }
+}
+
+.documents-block {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 865px) {
+  .documents-block {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+.documents-block__text {
+  text-align: center;
+  margin-top: 40px;
+  line-height: 24px;
+  font-size: 18px;
+}
+@media (max-width: 476px) {
+  .documents-block__text {
+    font-size: 14px;
+    line-height: normal;
+  }
+}
+@media (max-width: 865px) {
+  .documents-block__item {
+    margin-bottom: 40px;
+  }
+}
+
 .modal {
   position: fixed;
   left: 0;
