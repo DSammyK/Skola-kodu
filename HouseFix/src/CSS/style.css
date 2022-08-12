@@ -990,4 +990,11 @@ img {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.error {
+  color: #b5182d;
+}
+.error:nth-child(odd) {
+  border: 1.5px solid #b5182d;
 }/*# sourceMappingURL=style.css.map */

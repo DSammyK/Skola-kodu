@@ -72,9 +72,9 @@
                 <div class="offer-block">
                     <h2 class="offer-title wow animate__animated animate__bounceIn">Bezplatně vypracujeme design-projekt pro Váš domov a realizujeme ho!</h2>
                     <span class="offer-subtitle wow animate__animated animate__bounceInLeft" data-wow-delay=".2s">Zanechte poptávku pro vypracování bezplatného design-projektu!</span>
-                    <form action="#" class="form offer__form wow animate__animated animate__bounceInLeft">
-                        <input type="text" class="input offer__input" placeholder="Vaše jméno">
-                        <input type="tel" class="input offer__input" placeholder="Váš telefon">
+                    <form action="#" id="offer-form" class="form offer__form wow animate__animated animate__bounceInLeft">
+                        <input type="text" name="username" class="input offer__input" placeholder="Vaše jméno">
+                        <input type="tel" name="phone" class="input offer__input" placeholder="Váš telefon">
                         <button class="button offer__button wow animate__animated animate__bounceInLeft" data-wow-delay=".4s">
                             Získejte bezplatný design-projekt
                         </button>
@@ -341,9 +341,9 @@
                     <div class="form brief__form">
                         <h3 class="form__title wow animate__animated animate__fadeInTopRight">Zanechte poptávku na bezplatný výpočet renovace po telefonu</h3>
                         <spam class="form__subtitle wow animate__animated animate__fadeInTopRight" data-wow-delay=".2s">Vyplňte níže uvedený formulář</spam>
-                        <form action="#" class="form">
-                            <input type="text" class="input brief__input wow animate__animated animate__fadeInRight" data-wow-delay=".3s" placeholder="Vaše jméno">
-                            <input type="text" class="input brief__input wow animate__animated animate__fadeInRight" data-wow-delay=".5s" placeholder="Váš telefon">
+                        <form action="#" class="form" id="brief-form">
+                            <input type="text" name="username" class="input brief__input wow animate__animated animate__fadeInRight" data-wow-delay=".3s" placeholder="Vaše jméno">
+                            <input type="text" name="phone" class="input brief__input wow animate__animated animate__fadeInRight" data-wow-delay=".5s" placeholder="Váš telefon">
                             <button class="button brief__button wow animate__animated animate__fadeInRight" data-wow-delay=".7s">Vypočítat náklady</button>
                             <span class="form__description wow animate__animated animate__fadeInRight" data-wow-delay=".9s"> Zavoláme vám nazpět do 60 sekund</span>
                         </form>
@@ -365,6 +365,7 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

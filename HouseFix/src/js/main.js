@@ -29,6 +29,31 @@ $(document).ready(function(){
         modal.removeClass("modal_active");
     });    
 
+
+    //Validace Formulára
+
+    $("#brief-form").validate({
+      rules: {
+        username: "required",
+        phone: "required"
+      },
+      messages: {
+        username: "Uveďte vaše meno",
+        phone: "Potrebujeme váše telefónne číslo"
+      }
+    })
+
+    $("#offer-form").validate({
+      rules: {
+        username: "required",
+        phone: "required"
+      },
+      messages: {
+        username: "Uveďte vaše meno",
+        phone: "Potrebujeme váše telefónne číslo"
+      }
+    })
+
     //napojenie slideru
     $(".slider").slick({
         slidesToShow: 3,
