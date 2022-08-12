@@ -206,6 +206,7 @@ img {
   justify-content: center;
   align-items: center;
   margin-right: 30px;
+  min-width: 40px;
 }
 .main-list__text {
   line-height: 24px;
@@ -910,6 +911,7 @@ img {
 @media (max-width: 1200px) {
   .interview-list__counter {
     margin-right: 20px;
+    min-width: 35px;
   }
 }
 .interview-list__text {
